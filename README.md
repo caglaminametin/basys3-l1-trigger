@@ -48,7 +48,7 @@ UART is slow, but it only loads the event buffer. The trigger logic itself runs 
 | 0 | Toolchain bring-up: switches, LEDs, clock divider, button synchronizer | ✅ Done |
 | 1 | UART RX/TX, packet format, Python host interface, first testbenches | ⏳ Next |
 | 2 | Hand-written RTL trigger: thresholding, local maxima, cluster sums on an 8×8 calorimeter grid, fixed latency | Planned |
-| 3 | Jet tagging MLP with hls4ml (hls4ml LHC jet dataset), comparison with published XC7A35T results | Planned |
+| 3 | Jet tagging MLP with hls4ml (hls4ml LHC jet dataset), comparison with published XC7A35T results |🔄 Float baseline done (77.1%)  |
 | 4 | Autoencoder-based anomaly detection trigger | Planned |
 | 5 | Documentation and technical note | Planned |
 
