@@ -15,7 +15,7 @@ module uart_tx #(
     input  wire       rst,        // synchronous, active high
     input  wire       tx_start,   // one-cycle pulse: start sending tx_data
     input  wire [7:0] tx_data,
-    output reg        tx,         // serial output
+    output reg        tx = 1'b1,         // serial output
     output wire       tx_busy     // high while a frame is being sent
 );
 
